@@ -24,7 +24,7 @@ sudo ./install.sh
 
 ## Use case
 
-I use [Sway](https://www.swaywm.org) as my window manager, where it is possible to define the cursor theme for a specific input device.
+I use [Sway](https://swaywm.org) as my window manager, where it is possible to define the cursor theme for a specific input device.
 For example, I own a Logitech Spotlight device, which can be moved to its own _seat_, so that the laser pointer theme is only associated with this device.
 In the sway configuration this can be achieved as follows:
 
