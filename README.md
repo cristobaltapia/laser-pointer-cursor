@@ -1,6 +1,6 @@
 # Laser pointer cursor theme
 
-This is a simple laser-pointer for your cursor.
+This is a simple x-cursor theme that emulates a laser pointer.
 Nothing fancy.
 However, it is very useful in the times of online presentations.
 
