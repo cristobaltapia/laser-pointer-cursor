@@ -13,5 +13,5 @@ And it looks like this:
 
 * How did you do this?
 
-I didn't know anything about creating custom cursor themes, so I just copied most of what is in [this](https://github.com/vinceliuice/McMojave-cursors) repo.
-Then I did my own cursor with Inkscape.
+    I didn't know anything about creating custom cursor themes, so I just copied most of what is in [this](https://github.com/vinceliuice/McMojave-cursors) repo.
+    Then I did my own cursor with Inkscape.
