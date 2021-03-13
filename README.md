@@ -8,6 +8,35 @@ And it looks like this:
 
 ![image description](preview.png)
 
+## Installation
+
+For local user installation, run the following command:
+
+```sh
+./install.sh
+```
+
+For system-wide installation, use the following command:
+
+```sh
+sudo ./install.sh
+```
+
+## Use case
+
+I use [Sway](https://www.swaywm.org) as my window manager, where it is possible to define the cursor theme for a specific input device.
+For example, I own a Logitech Spotlight device, which can be moved to its own _seat_, so that the laser pointer theme is only associated with this device.
+In the sway configuration this can be achieved as follows:
+
+```
+seat seat_spotlight {
+    attach 1133:50494:Logitech_USB_Receiver_Mouse
+    attach 1133:50494:Logitech_USB_Receiver_Consumer_Control
+    attach 1133:50494:Logitech_USB_Receiver_System_Control
+    hide_cursor 1000
+    xcursor_theme "laser-pointer-cursors"
+}
+```
 
 ## F.A.Q.
 
