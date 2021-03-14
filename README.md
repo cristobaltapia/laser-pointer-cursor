@@ -31,8 +31,6 @@ In the sway configuration this can be achieved as follows:
 ```
 seat seat_spotlight {
     attach 1133:50494:Logitech_USB_Receiver_Mouse
-    attach 1133:50494:Logitech_USB_Receiver_Consumer_Control
-    attach 1133:50494:Logitech_USB_Receiver_System_Control
     hide_cursor 1000
     xcursor_theme "laser-pointer-cursors"
 }
